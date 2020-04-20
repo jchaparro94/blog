@@ -48,8 +48,7 @@ header {
 /*////////////// MAIN ////////////// */
 
 .main {
-   background-color: teal;
-   height: 100vh;
+   /* height: 100vh; */
    margin-top: 32px;
    display: flex;
    justify-content: center;
@@ -63,8 +62,79 @@ header {
    padding-right: 16px;
 }
 
+.post {
+   display: flex;
+   border: 1px solid #eaecee;
+   border-radius: 8px;
+   overflow: hidden;
+   min-height: 200px;
+   margin-top: 32px;
+   transition: all .2s ease;
+}
 
+.post:hover {
+   transform: translate3d(0, -5px, 0);
+   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
 
+.post-image {
+   flex-basis: 40%;
+   background-image: url('https://images.pexels.com/photos/373072/pexels-photo-373072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+   background-size: cover;
+   background-position: center;
+}
+
+.post-content {
+   flex-basis: 60%;
+   padding: 24px;
+}
+
+.post-date {
+   font-weight: 600;
+   font-size: 16px;
+   color: #adb5bd;
+}
+
+.post-title {
+   margin-top: 16px;
+   font-size: 30px;
+   color: black;
+   font-weight: 600;
+}
+
+.post-title h4 {
+   margin: 0;
+}
+
+.post-text {
+   margin-top: 4px;
+   color: black;
+   font-weight: 400;
+   max-height: 65px;
+   line-height: 1.4;
+   overflow: hidden;
+}
+
+.nav-button.new-post-button {
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   font-size: 24px;
+   width: 50px;
+   height: 50px;
+   color: white;
+   background-color: #004186;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+   transition: all 0.25s ease;
+}
+
+.nav-button.new-post-button:hover {
+   background-color: #002349;
+}
 
 
 
