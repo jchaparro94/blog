@@ -40,6 +40,10 @@ header {
    background-position: center;
 }
 
+.blog-page {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/blog-banner.jpg);
+}
+
 .title { font-size: 60px; }
 
 
