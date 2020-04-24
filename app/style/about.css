@@ -1,0 +1,36 @@
+.about-me-banner {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/family.jpg);
+}
+
+.about-image {
+   flex-basis: 40%;
+   background-size: cover;
+   background-position: center;
+}
+
+.profile {
+   background-image: url('../assets/profile.png');
+}
+
+.extras-image {
+   background-image: url('../assets/Anubis.JPG');
+}
+
+.about {
+   display: flex;
+   /* border: 1px solid #eaecee;
+   border-radius: 8px; */
+   overflow: hidden;
+   min-height: 200px;
+   margin-top: 32px;
+   transition: all .2s ease;
+}
+
+.about-text {
+   margin-top: 4px;
+   color: black;
+   font-weight: 400;
+   /* max-height: 65px; */
+   /* line-height: 1.4; */
+   /* overflow: hidden; */
+}
